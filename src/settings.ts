@@ -70,7 +70,7 @@ const MOUSE_CURSOR_FOLLOWS_ACTIVE_WINDOW = 'mouse-cursor-follows-active-window';
 const MOUSE_CURSOR_FOCUS_LOCATION = 'mouse-cursor-focus-location';
 
 export class ExtensionSettings {
-    ext: Settings = settings_new_schema('org.gnome.shell.extensions.pop-shell');
+    ext: Settings = settings_new_schema('org.gnome.shell.extensions.pop-wm');
     int: Settings | null = settings_new_id('org.gnome.desktop.interface');
     mutter: Settings | null = settings_new_id('org.gnome.mutter');
     shell: Settings | null = settings_new_id('org.gnome.shell.extensions.user-theme');

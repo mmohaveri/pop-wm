@@ -1,11 +1,11 @@
 {
-    "name": "Pop Shell",
-    "description": "Pop Shell",
-    "version": 2,
-    "uuid": "pop-shell@system76.com",
-    "settings-schema": "org.gnome.shell.extensions.pop-shell",
-    "shell-version": [
-        "45",
-        "46"
-    ]
+  "name": "Pop Window Manager",
+  "description": "Tiling Window Manager parts of pop shell",
+  "version": 1,
+  "uuid": "pop-wm@mmohaveri",
+  "settings-schema": "org.gnome.shell.extensions.pop-wm",
+  "shell-version": [
+    "45",
+    "46"
+  ]
 }
